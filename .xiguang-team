@@ -1,0 +1,9 @@
+# 隙光工造 · 本地配置
+# 此文件由 PM（启动时）生成，标记项目团队配置
+# 基于框架: D:/隙光工造/
+
+XIANGUANG_PATH: /mnt/d/隙光工造
+PROJECT_NAME: person_fenxi
+TEAM_NAME: xiguang-person_fenxi-team
+CREATED: 2026-05-26
+MODE: development

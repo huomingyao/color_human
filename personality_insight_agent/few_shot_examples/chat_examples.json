@@ -1,0 +1,124 @@
+{
+  "examples": [
+    {
+      "name": "技术讨论场景 - 渐进决策者",
+      "input": {
+        "raw_text": "[2024-03-15 产品评审群]\n张三: 新功能我看了竞品分析，A和B都做了，但方向不一样。A侧重C端体验，B侧重B端效率。\n张三: 我建议先不急着决定，我们各做一个小原型跑一周数据。\n张三: 成本的话，两个人一周应该能出东西。\n李四: 客户那边一直在催，能不能直接做B的方案？\n张三: 催归催，做错了更浪费时间。原型验证很快的，一周后拿数据说话。\n张三: 而且说实话，我直觉也觉得B的方向可能不太对，但需要用数据验证一下。"
+      },
+      "expected_skill2": {
+        "cognitive_profile": {
+          "info_processing": {
+            "style": "balanced_analytical",
+            "detail_orientation": 4,
+            "evidence": ["先看竞品分析再提建议", "要求'跑一周数据'验证"]
+          },
+          "decision_pattern": {
+            "mode": "data_driven",
+            "deliberation_level": 4,
+            "evidence": ["'我建议先不急着决定'", "明确要求拿数据说话"]
+          },
+          "risk_attitude": {
+            "orientation": "moderate_conservative",
+            "frame": "prevention",
+            "evidence": ["强调'做错了更浪费时间'", "选择低成本原型验证"]
+          }
+        },
+        "mental_models": [
+          {
+            "name": "原型验证",
+            "description": "不确定时先用低成本实验验证假设",
+            "cross_domain_evidence": ["产品决策", "团队沟通"],
+            "generativity": "能预测此人遇到不确定问题时会先做小规模实验",
+            "exclusivity": "区别于直接选择或无限争论的人",
+            "triple_check": {"cross_domain": true, "generative": true, "exclusive": true}
+          }
+        ],
+        "quality": 0.85,
+        "uncertainty": ["消息量仅6条，样本偏少"]
+      },
+      "expected_skill3": {
+        "language_style": {
+          "sentence_fingerprint": {"avg_sentence_length": 28.5, "question_ratio": 0.0, "analogy_density": 1.5, "first_person_ratio": 0.12, "certainty_tone": "moderate"},
+          "style_tags": {"formality": 4, "abstractness": 4, "cautiousness": 4, "narrative_data": 3},
+          "emotion": {"valence": 0.1, "arousal": 0.3, "dominance": 0.5, "expression_tendency": "covert"}
+        },
+        "signature_patterns": ["在否定意见前先用数据铺垫", "使用'说实话'引入个人观点"],
+        "quality": 0.65,
+        "uncertainty": ["样本量极小(6条)，语言风格分析可信度有限"]
+      },
+      "expected_skill4": {
+        "personality": {
+          "big_five": {
+            "openness": {"score": 4, "confidence": 0.75},
+            "conscientiousness": {"score": 4, "confidence": 0.8},
+            "extraversion": {"score": 3, "confidence": 0.5},
+            "agreeableness": {"score": 4, "confidence": 0.7},
+            "neuroticism": {"score": 2, "confidence": 0.65}
+          },
+          "mbti": {"type": "ISTJ", "confidence": 0.65},
+          "motivation": {"achievement": {"score": 4, "rank": 1}, "affiliation": {"score": 3, "rank": 2}, "power": {"score": 2, "rank": 3}},
+          "pdp": {"style": "猫头鹰", "sub_style": "猫头鹰-考拉"}
+        }
+      }
+    },
+    {
+      "name": "公众号文章场景 - 感性叙事者",
+      "input": {
+        "raw_text": "做产品七年了，我发现最容易被忽略的，是用户为什么来。很多人做功能是因为竞品有，但竞品有和你该做是两回事。我的方法论很简单：回到用户场景。他在什么时间、什么地点、遇到了什么问题、现在的解决方案是什么。这四个问题回答清楚了，功能该不该做，答案自然就出来了。我有个习惯，每周至少和3个用户深聊一次。不是问卷，是真聊。你会发现用户嘴上说的和实际做的是两回事，只有在对话里，那些真正重要的东西才会浮现。产品经理最重要的能力不是画原型，是共情。"
+      },
+      "expected_skill2": {
+        "cognitive_profile": {
+          "info_processing": {
+            "style": "intuitive_analytical",
+            "detail_orientation": 4,
+            "evidence": ["提出'四问题'框架，结构清晰", "从用户场景出发的方法论"]
+          },
+          "decision_pattern": {
+            "mode": "experience_based",
+            "deliberation_level": 3,
+            "evidence": ["'做产品七年了'引出经验", "强调实践而非理论"]
+          },
+          "risk_attitude": {
+            "orientation": "moderate",
+            "frame": "promotion",
+            "evidence": ["追求做对的事而非跟风", "愿意花时间深聊用户"]
+          }
+        },
+        "mental_models": [
+          {
+            "name": "第一性原理",
+            "description": "回到用户场景的最基本要素来决策",
+            "cross_domain_evidence": ["功能决策", "用户研究方法论"],
+            "triple_check": {"cross_domain": true, "generative": true, "exclusive": true}
+          }
+        ],
+        "quality": 0.65,
+        "uncertainty": ["仅一篇长文，可能不代表完整的思维模式"]
+      },
+      "expected_skill3": {
+        "language_style": {
+          "sentence_fingerprint": {"avg_sentence_length": 24.3, "question_ratio": 0.15, "analogy_density": 4.5, "first_person_ratio": 0.15, "certainty_tone": "moderate"},
+          "style_tags": {"formality": 2, "abstractness": 2, "cautiousness": 3, "narrative_data": 2},
+          "emotion": {"valence": 0.35, "arousal": 0.4, "dominance": 0.45, "expression_tendency": "covert"}
+        },
+        "signature_patterns": ["口语化表达('你会发现' '不是…是…')", "用场景化描写替代抽象论证"],
+        "quality": 0.6,
+        "uncertainty": ["仅一篇正式文章，缺少日常沟通的语言样本"]
+      },
+      "expected_skill4": {
+        "personality": {
+          "big_five": {
+            "openness": {"score": 4, "confidence": 0.7},
+            "conscientiousness": {"score": 3, "confidence": 0.65},
+            "extraversion": {"score": 3, "confidence": 0.5},
+            "agreeableness": {"score": 5, "confidence": 0.8},
+            "neuroticism": {"score": 2, "confidence": 0.6}
+          },
+          "mbti": {"type": "INFJ", "confidence": 0.6},
+          "motivation": {"affiliation": {"score": 5, "rank": 1}, "achievement": {"score": 4, "rank": 2}, "power": {"score": 2, "rank": 3}},
+          "pdp": {"style": "考拉-孔雀", "sub_style": "考拉-孔雀"}
+        }
+      }
+    }
+  ]
+}
