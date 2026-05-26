@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# 环境变量（含敏感信息）
+.env
+.env.*
+!.env.template
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 独立子项目（各自有独立仓库）
+honcho/
+nuwa-skill/
