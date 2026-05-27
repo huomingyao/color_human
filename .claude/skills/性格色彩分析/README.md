@@ -61,8 +61,8 @@ npx skills add huomingyao/color_human
 ```
 
 例如：
-- 「分析火铭遥，H:/火铭遥相关信息/」
-- 「分析蔡岩峻，D:/蔡岩峻相关信息/」
+- 「分析张三，H:/张三相关信息/」
+- 「分析李四，D:/李四相关信息/」
 
 系统会自动：
 1. 扫描目录中的所有文件
@@ -70,15 +70,6 @@ npx skills add huomingyao/color_human
 3. 提取行为关键词
 4. 追问深层动机
 5. 生成分析报告
-
----
-
-## 📂 Skills 技能列表
-
-| Skill | 功能 | 路径 |
-|-------|------|------|
-| 性格色彩分析 | FPA 四色分析 | [skills/性格色彩分析/](skills/性格色彩分析/) |
-| 蔡岩峻-perspective | 个人心理画像 | [skills/蔡岩峻-perspective/](skills/蔡岩峻-perspective/) |
 
 ---
 
@@ -154,20 +145,21 @@ npx skills add huomingyao/color_human
 
 ---
 
-## 项目结构
+## 📂 项目结构
 
 ```
 color_human/
-├── README.md              # 项目入口
-├── LICENSE               # MIT 许可证
-└── skills/               # 技能合集
-    ├── 性格色彩分析/     # FPA 四色分析
-    │   ├── SKILL.md
-    │   └── references/
-    └── 蔡岩峻-perspective/ # 个人心理画像
-        ├── SKILL.md
-        ├── references/
-        └── sources/
+├── README.md           # 本文件
+├── SKILL.md          # 完整的技能定义（Agent 使用）
+├── LICENSE          # MIT 许可证
+└── references/      # 参考资料
+    ├── 00-core-theory.md  # 核心理论
+    ├── 01-red.md       # 红色特征
+    ├── 02-blue.md     # 蓝色特征
+    ├── 03-yellow.md  # 黄色特征
+    ├── 04-green.md   # 绿色特征
+    ├── 06-test-case.md # 测试案例
+    └── 07-multi-source-validation.md # 多来源验证
 ```
 
 ---
@@ -185,7 +177,6 @@ color_human/
 | Skill | 描述 |
 |---|---|
 | [liangebodwo-mirror](https://github.com/huomingyao/liangebodwo-mirror) | 心智模式五层分析 |
-| [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 女娲 · 思维蒸馏 |
 
 ---
 
