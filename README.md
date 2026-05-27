@@ -185,7 +185,6 @@ color_human/
 | Skill | 描述 |
 |---|---|
 | [liangebodwo-mirror](https://github.com/huomingyao/liangebodwo-mirror) | 心智模式五层分析 |
-| [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 女娲 · 思维蒸馏 |
 
 ---
 
