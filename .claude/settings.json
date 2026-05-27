@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST http://localhost:8000/v3/workspaces/student-profile/sessions/midterm-review/messages -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\": [{\\\\\"peer_id\\\\\": \\\\\"huomingyao\\\\\", \\\\\"content\\\\\": \\\\\"$\\(cat 'd:/person_fenxi/火铭遥 期中总结26.docx')",
+      "Bash(python examples/analyze_full.py)",
+      "Bash(curl -s -X POST http://localhost:8000/v3/workspaces/huomingyao-profile/peers/huomingyao/chat -H \"Content-Type: application/json\" -d '{\"query\": \"火铭遥是一个什么样的人？从性格、价值观、学习态度、思维方式等方面全面分析。特别关注他对功利化学习和求知欲的看法反应了他什么样的思想？\"}')",
+      "Bash(curl -sL \"https://api.github.com/repos/alchaincyf/nuwa-skill\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}

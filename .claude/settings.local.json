@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker exec *)",
+      "Bash(python examples/demo_user_profile.py)",
+      "Bash(curl -s http://localhost:8000/v3/workspaces/demo-workspace/queue/status)",
+      "Bash(python -m json.tool)",
+      "Bash(curl -s -X POST http://localhost:8000/v3/workspaces/demo-workspace/conclusions/list -H \"Content-Type: application/json\" -d '{\"peer_id\": \"alice\"}')",
+      "Bash(pip install *)",
+      "Bash(python examples/analyze_huomingyao.py)",
+      "Read(//d/api/src/**)",
+      "Bash(ls -la \"H:\\\\蔡岩峻相关信息\")",
+      "Read(//h/蔡岩峻相关信息/**)",
+      "Bash(grep -v \"~\\\\$\")",
+      "Bash(unzip -p \"蔡岩峻 知守学堂申请信.docx\" word/document.xml)",
+      "Bash(unzip -p \"蔡岩峻 巨婴国读书报告.docx\" word/document.xml)",
+      "Bash(unzip -p \"蔡岩峻 信息整合第一次作业.docx\" word/document.xml)",
+      "Bash(unzip -p \"蔡岩峻 杀人事件电影总结.docx\" word/document.xml)",
+      "Bash(unzip -p \"蔡岩峻 宣传片第二次底稿框架.docx\" word/document.xml)",
+      "Bash(unzip -p \"11蔡岩峻 第三阶段阶段性总结.docx\" word/document.xml)",
+      "Bash(unzip -p \"11蔡岩峻 《阿辛正传》电影课总结.docx\" word/document.xml)",
+      "Bash(mkdir -p \".claude/skills/蔡岩峻-perspective/references/research\")",
+      "Bash(mkdir -p \".claude/skills/蔡岩峻-perspective/sources/documents\")",
+      "Bash(cp \"H:\\\\蔡岩峻相关信息\\\\第二学期\\\\蔡岩峻 知守学堂申请信.docx\" \".claude/skills/蔡岩峻-perspective/sources/documents/\")",
+      "Bash(cp \"H:\\\\蔡岩峻相关信息\\\\第二学期\\\\作业\\\\第一周\\\\蔡岩峻 巨婴国读书报告.docx\" \".claude/skills/蔡岩峻-perspective/sources/documents/\")",
+      "Bash(cp \"H:\\\\蔡岩峻相关信息\\\\第二学期\\\\作业\\\\第一周\\\\蔡岩峻 杀人事件电影总结.docx\" \".claude/skills/蔡岩峻-perspective/sources/documents/\")",
+      "Bash(cp \"H:\\\\蔡岩峻相关信息\\\\第四学期\\\\蔡岩峻行知入职详细问答问卷6.3.docx\" \".claude/skills/蔡岩峻-perspective/sources/documents/\")",
+      "Edit(/.claude/skills/蔡岩峻-perspective/**)"
+    ]
+  }
+}
