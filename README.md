@@ -61,7 +61,7 @@ npx skills add huomingyao/color_human
 ```
 
 例如：
-- 「分析火铭遥，H:/火铭遥相关信息/」
+- 「分析张三，D:/张三相关信息/」
 
 系统会自动：
 1. 扫描目录中的所有文件
