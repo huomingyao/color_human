@@ -20,6 +20,9 @@ build/
 .DS_Store
 Thumbs.db
 
+# Claude 插件配置（非项目代码）
+.claude/
+
 # 独立子项目（各自有独立仓库）
 honcho/
 nuwa-skill/
