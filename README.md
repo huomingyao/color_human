@@ -62,7 +62,6 @@ npx skills add huomingyao/color_human
 
 例如：
 - 「分析火铭遥，H:/火铭遥相关信息/」
-- 「分析蔡岩峻，D:/蔡岩峻相关信息/」
 
 系统会自动：
 1. 扫描目录中的所有文件
@@ -78,7 +77,6 @@ npx skills add huomingyao/color_human
 | Skill | 功能 | 路径 |
 |-------|------|------|
 | 性格色彩分析 | FPA 四色分析 | [skills/性格色彩分析/](skills/性格色彩分析/) |
-| 蔡岩峻-perspective | 个人心理画像 | [skills/蔡岩峻-perspective/](skills/蔡岩峻-perspective/) |
 
 ---
 
@@ -161,13 +159,9 @@ color_human/
 ├── README.md              # 项目入口
 ├── LICENSE               # MIT 许可证
 └── skills/               # 技能合集
-    ├── 性格色彩分析/     # FPA 四色分析
-    │   ├── SKILL.md
-    │   └── references/
-    └── 蔡岩峻-perspective/ # 个人心理画像
+    └── 性格色彩分析/     # FPA 四色分析
         ├── SKILL.md
-        ├── references/
-        └── sources/
+        └── references/
 ```
 
 ---
