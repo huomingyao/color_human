@@ -1,16 +1,37 @@
-MIT License
+MIT License + 商业使用条款
 
 Copyright (c) 2024 火铭遥
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
+
+## 私人使用条款（免费）
+
+✓ 个人学习、研究、私人项目使用：免费
+✓ 修改自行使用：允许
+✗ 再分发：需标注来源
+
+---
+
+## 商业使用条款（需授权）
+
+❌ 未经授权，禁止用于任何商业用途，包括但不限于：
+  - 企业内部使用
+  - 商业产品/服务中使用
+  - SaaS / API 服务中调用
+  - 以此为基础提供服务获利
+
+如需商业使用，请联系作者授权：
+  - GitHub: @huomingyao
+  - 或者通过项目主页联系方式
+
+---
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
